@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Lore - Pure Soul NFT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="https://puresoulnft.com" style="position: fixed; top: 20px; left: 20px; background: rgba(40, 40, 60, 0.95); backdrop-filter: blur(15px); border: 2px solid rgba(255, 255, 255, 0.4); border-radius: 25px; padding: 12px 20px; color: #ffffff; text-decoration: none; font-size: 0.95rem; font-weight: 600; z-index: 1000; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); min-width: 150px; justify-content: center;">← Back To Home</a>
+`
+
+    <div class=""container">
+
+    <div class="container">
+        <div class="header">
+            <h1>DISCOVER THE LEGENDS OF</h1>
+            <h2 class="hero-title">DIVINE ASCENDANTS</h2>
+            <p class="subtitle">Explore the rich backstories and divine powers of the Pure Soul universe</p>
+        </div>
+
+        <div class="controls">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search Divine Ascendants by name...">
+            <button class="filter-btn active" data-rarity="all">All Rarities</button>
+            <button class="filter-btn" data-rarity="Legendary">Legendary</button>
+            <button class="filter-btn" data-rarity="Epic">Epic</button>
+            <button class="filter-btn" data-rarity="Rare">Rare</button>
+            <button class="filter-btn" data-rarity="Common">Common</button>
+        </div>
+
+        <div class="character-grid" id="characterGrid">
+            <!-- Characters will be dynamically populated by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Character Modal -->
+    <div class="character-modal" id="characterModal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeCharacterModal()">&times;</button>
+            <div class="modal-header">
+                <div class="modal-avatar" id="modalAvatar"></div>
+                <div class="modal-name" id="modalName"></div>
+                <div class="modal-title" id="modalTitle"></div>
+                <div class="modal-faction" id="modalFaction"></div>
+            </div>
+            
+            <div id="modalContent">
+                <!-- Content will be dynamically populated -->
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+    <script>
+    // Hover effect for back button
+const backBtn = document.querySelector('a[href="https://puresoulnft.com"]');
+
+backBtn.addEventListener('mouseenter', function() {
+    this.style.background = 'rgba(139, 92, 246, 0.9)';
+    this.style.borderColor = 'rgba(139, 92, 246, 0.8)';
+    this.style.transform = 'translateY(-2px)';
+    this.style.boxShadow = '0 8px 25px rgba(139, 92, 246, 0.5)';
+});
+
+backBtn.addEventListener('mouseleave', function() {
+    this.style.background = 'rgba(40, 40, 60, 0.95)';
+    this.style.borderColor = 'rgba(255, 255, 255, 0.4)';
+    this.style.transform = 'translateY(0px)';
+    this.style.boxShadow = '0 6px 20px rgba(0, 0, 0, 0.4)';
+});
+</script>
+
+</body>
+</html>
