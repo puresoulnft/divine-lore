@@ -69,7 +69,7 @@ Among the Divine Ascendants, he is both healer and redeemer — reaching even in
         faction: "Divine Ascendants",
         rarity: "Legendary",
         avatar: "LT",
-        image: "images/legendary/laozi.jpg", // Add: images/legendary_char_4.jpg
+        image: "images/legendary/Laozi.jpg", // Add: images/legendary_char_4.jpg
         loreBackground: `Long before the cosmos fully took shape, before stars illuminated the heavens or time charted its course, there existed the formless Tao — the primordial way of existence. From this infinite current of harmony, balance, and non-resistance, Lao Tzu was born — not as a conqueror or a warrior, but as the embodiment of universal flow itself.
 
 Unlike many Ascendants who wield overwhelming power, Lao Tzu’s strength lies in subtlety. His wisdom flows like water: soft, yet capable of eroding mountains. He became the silent architect behind many of the Divine Ascendants’ most crucial doctrines, ensuring that their pursuit of order never became tyranny, and that light never blinded itself with pride.
