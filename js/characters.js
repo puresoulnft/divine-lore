@@ -265,7 +265,7 @@ Her powers are not fueled by aggression, but by divine authorization — acting 
     },
 
     epic_char_9: {
-        name: "Zadkiel",
+        name: "Archangel Zadkiel",
         title: "The Angel Of Mercy",
         faction: "Divine Ascendants",
         rarity: "Epic",
